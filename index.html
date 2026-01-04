@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WO-MINIDAURAH</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <style>
+        /* Simple CSS - 97 lines */
+        
+    </style> -->
+</head>
+<body>
+    <header class="header">
+        <div class="nav-brand">
+            <span>WO-MINIDAURAH</span>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li>Home</li>
+                <li>Our Classes</li>
+                <li>About Us</li>
+                <li>Contact Us</li>
+                <li><button class="action-button">Register</button></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="content">
+        <section class="section hero-banner">
+            <h2>Baking kamu masih padat, kering? atau bahkan kopong?</h2>
+            <h2>Kalau disini enggak! Disini kita belajar cara baking yang benar</h2>
+            <h3>Ya, disini tempatnya</h3>
+            <button>Daftar Sekarang</button>
+        </section>
+        
+        <section class="section features">
+            <div>
+                <img src="assets/professional-chef.jpg" alt="Professional Chef">
+                <h3>Chef Profesional</h3>
+                <p>Diajar langsung oleh chef berpengalaman dengan sertifikasi internasional</p>
+            </div>
+            <div>
+                <img src="assets/more-practice.jpg" alt="Hands-on Practice">
+                <h3>Praktik Langsung</h3>
+                <p>85% waktu belajar adalah praktik langsung dengan alat profesional</p>
+            </div>
+            <div>
+                <img src="assets/modern-receipt.jpg" alt="Modern Recipes">
+                <h3>Resep Modern</h3>
+                <p>Belajar teknik dan resep terkini dari seluruh dunia</p>
+            </div>
+        </section>
+        
+        <section class="section programs">
+            <h2>Program Unggulan Kami</h2>
+            <p>• Basic Baking</p>
+            <p>• Advanced Pastry</p>
+            <p>• Bread Master Class</p>
+            <p>• Cake Decorating</p>
+        </section>
+        
+        <section class="section testimonials">
+            <h2>Apa Kata Alumni Kami</h2>
+            <p>"Setelah kursus di WO-MINIDAURAH, saya bisa buka usaha bakery sendiri!" - Sari, Alumni 2023</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>WO-MINIDAURAH Baking Class</p>
+        <p>© 2025 All rights reserved</p>
+    </footer>
+
+    <script>
+        // Simple JavaScript for interactivity
+        document.querySelectorAll('.navbar li').forEach(item => {
+            item.addEventListener('click', function() {
+                alert('Navigating to ' + this.textContent);
+            });
+        });
+        
+        document.querySelectorAll('button').forEach(button => {
+            button.addEventListener('click', function() {
+                alert('Terima kasih! Form pendaftaran akan segera tersedia.');
+            });
+        });
+        
+        // Make header sticky on scroll
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('.header');
+            if (window.scrollY > 50) {
+                header.style.boxShadow = '0 2px 10px rgba(0,0,0,0.1)';
+            } else {
+                header.style.boxShadow = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WO-MINIDAURAH</title>
+    <style scr="style.css"></style>
+</head>
+<body>
+    <header class="header">
+        <img src="assets/logo.jpg" alt="WO-MINIDAURAH" class="nav-brand">
+        <nav class="navbar">
+            <ul>
+                <li>Home</li>
+                <li>Our Classes</li>
+                <li>About Us</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+        <button class="action-button">Register</button>
+    </header>
+    <main class="content">
+        <section class="section hero-banner">
+            <h2>Baking kamu masih padat, kering? atau bahkan kopong?</h2>
+            <h2>Kalau disini enggak!, Disini kita belajar cara baking dan tentunya </h2>
+            <h3>Ya, disini tempatnya</h3>
+            <button>Daftar Sekarang</button>
+        </section>
+        <section class="section features">
+            <div>
+                <img src="" alt="">
+                <p></p>
+            </div>
+            <div></div>
+            <div></div>
+
+        </section>
+        <section class="section programs">
+
+        </section>
+        <section class="section our-classes">
+
+        </section>
+        <section class="section testimonials">
+
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html> -->
