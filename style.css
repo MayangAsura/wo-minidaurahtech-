@@ -67,20 +67,21 @@ body {
 
 .hero-banner {
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
-                url('assets/backing-class-thumbnail.jpg');
-    /* background-size: cover; */
-    background-size: contain;
+                url('assets/backing-class-thumbnail.jpg') no-repeat center;
+    background-size: cover;
+    background-position: relative;
+    height: 320px;
     color: white;
     text-align: center;
     padding: 4rem 2rem;
 }
 
-.hero-banner h2 {
-    font-size: 2rem;
+.hero-text {
+    font-size: 20px;
     margin-bottom: 1rem;
 }
 
-.hero-banner button {
+.hero-text button {
     background: #e67e22;
     color: white;
     border: none;
